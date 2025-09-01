@@ -1,2 +1,3 @@
 # bash-utilities
-A collection of handy Bash utilities for everyday tasks - from generating passwords to fetching App Store bundle IDs and more.
+A set of small, standalone bash scripts for macOS and general use.  
+Each script is self-contained and can be run directly from the terminal.
