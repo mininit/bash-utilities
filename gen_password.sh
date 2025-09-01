@@ -1,14 +1,26 @@
 #!/bin/bash
 #
-# DO NOT USE THESE PASSWORDS FOR PRIVILEGED ACCOUNTS - THEY ARE NOT SECURE
+# Password Generator (toy version)
 #
-
-set -e 
+# WARNING:
+#   DO NOT USE THESE PASSWORDS FOR PRIVILEGED ACCOUNTS.
+#   They are simple, predictable, and not secure.
+#
+# Description:
+#   Generates 10 random, easy-to-remember passwords in the format:
+#     <number><colour><animal>
+#
+#   Example output:
+#     4BlueCats
+#     7PinkDogs
+#     2GreenLions
+#
+set -e
 
 # Numbers 2–9
 numbers=(2 3 4 5 6 7 8 9)
 
-# Simple colors
+# Simple colours
 colours=(Red Blue Green Yellow Purple Pink)
 
 # Easy-to-spell plural animals
