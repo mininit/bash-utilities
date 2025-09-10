@@ -37,8 +37,8 @@ if [[ "$model_name" == "MacBook Air" ]]; then
     host_suffix='MBA'
 elif [[ "$model_name" == "MacBook Pro" ]]; then
     host_suffix='MBP'
-elif [[ "$model_name" == "Mac Mini" ]]; then
-    host_suffix='MacMini'
+elif [[ "$model_name" == "Mac mini" ]]; then
+    host_suffix='Macmini'
 elif [[ "$model_name" == "iMac" ]]; then
     host_suffix='iMac'
 else
